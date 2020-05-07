@@ -1,12 +1,12 @@
 # Использование нескольких репозиториев с одним проектом
 
 ```shell
-serg@serg:~/work/til$  https_proxy=acer272:7777 git clone https://github.com/serg-zh/til.git
-serg@serg:~/work/til$ git remote add local git@gitlab-srv.nkbvs.tsure.ru:serg/til.git
-serg@serg:~/work/til$ git remote
+$  https_proxy=proxy_server git clone https://github.com/serg-zh/til.git
+$ git remote add local git@gitlab-srv.nkbvs.tsure.ru:serg/til.git
+$ git remote
 local
 origin
-serg@serg:~/work/til$ git push -u local --all
+$ git push -u local --all
 Counting objects: 34, done.
 Delta compression using up to 8 threads.
 Compressing objects: 100% (31/31), done.
