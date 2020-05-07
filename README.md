@@ -4,7 +4,7 @@
 
 Small things I've learned and want to remember.
 
-_17 TILs and counting..._
+_18 TILs and counting..._
 
 ---
 
@@ -33,6 +33,7 @@ _17 TILs and counting..._
 
 * [Every day tips](git/everyday-tips.md)
 * [Git strategies](git/git-strategies.md)
+* [Использование нескольких репозиториев с одним проектом](git/multiple-repo.md)
 
 ### Linux
 
@@ -47,7 +48,7 @@ _17 TILs and counting..._
 
 ### Report
 
-* [1. Использование Yocto + CROPS + Mender на Raspberry Pi3](report/1. yocto-crocs-mender.md)
+* [Использование Yocto + CROPS + Mender на Raspberry Pi3](report/yocto-crocs-mender.md)
 
 ### Yocto
 
