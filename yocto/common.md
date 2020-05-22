@@ -14,6 +14,8 @@
 
 [Poky Container repo](https://github.com/crops/poky-container)
 
+[5 Steps to Compile Yocto Using Docker Containers](https://www.witekio.com/blog/5-steps-compile-yocto-docker-container/)
+
 ## Переменные для рассмотрения
 
 ```shell
