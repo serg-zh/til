@@ -4,7 +4,7 @@
 
 Small things I've learned and want to remember.
 
-_18 TILs and counting..._
+_21 TILs and counting..._
 
 ---
 
@@ -16,6 +16,7 @@ _18 TILs and counting..._
 * [Linux](#linux)
 * [Mender](#mender)
 * [Report](#report)
+* [Swupdate](#swupdate)
 * [Yocto](#yocto)
 
 ---
@@ -45,10 +46,16 @@ _18 TILs and counting..._
 * [Mender Rivals](mender/rivals.md)
 * [Mender for Raspberry Pi 3](mender/raspberry3.md)
 * [Простейший https сервер, только для тестирования](mender/simplehttps.md)
+* [Скрипт mender-convert](mender/mender-convert.md)
 
 ### Report
 
 * [Использование Yocto + CROPS + Mender на Raspberry Pi3](report/yocto-crocs-mender.md)
+* [Обновление ПО](report/deploy.md)
+
+### Swupdate
+
+* [Notes about SWUpdate](swupdate/common.md)
 
 ### Yocto
 
