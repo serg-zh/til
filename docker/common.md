@@ -1,5 +1,7 @@
 # Common tips
 
+[Challenges of using Containers to Run Graphical Embedded Systems](https://www.youtube.com/watch?time_continue=223&v=LHXpv2oee84&feature=emb_logo)
+
 [Контроль ресурсов](https://goldmann.pl/blog/2014/09/11/resource-management-in-docker/#_cpu)
 
 Статистика по использованию ресурсов (память, процессор, сеть, диск)
