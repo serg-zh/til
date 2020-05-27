@@ -28,6 +28,10 @@ IMAGE_INSTALL_append
 ```shell
 bitbake -c listtasks core-image-minimal
 bitbake -c fetch core-image-minimal
+
+bitbake-layers show-recipes
+bitbake-layers show-recipes "<image_name>"
+bitbake-layers show-recipes "*-image-*"
 ```
 
 ## Ошибка *QA Issue: No GNU_HASH in the ELF binary*
