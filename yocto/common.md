@@ -16,6 +16,8 @@
 
 [5 Steps to Compile Yocto Using Docker Containers](https://www.witekio.com/blog/5-steps-compile-yocto-docker-container/)
 
+[Building your own Linux distribution for Raspberry Pi](https://github.com/oscr/raspberrypi_linux)
+
 ## Переменные для рассмотрения
 
 ```shell
@@ -32,6 +34,11 @@ bitbake -c fetch core-image-minimal
 bitbake-layers show-recipes
 bitbake-layers show-recipes "<image_name>"
 bitbake-layers show-recipes "*-image-*"
+
+bitbake-layers show-layers
+
+bitbake -e imagename | grep "^DISTRO_FEATURES"
+bitbake -e imagename | grep "FSTYPES"
 ```
 
 ## Ошибка *QA Issue: No GNU_HASH in the ELF binary*
