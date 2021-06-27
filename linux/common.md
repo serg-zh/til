@@ -8,6 +8,8 @@
 journalctl -b                         # current boot
 journalctl -u service-name.service    # for the given service
 journalctl -u service-name.service -b # the service and the current boot
+journalctl --rotate --vacuum-time=1month # оставлять сообщения не старше месяца
+
 ```
 
 ## Подключение двух logitech устройств к одному unifying устройству
